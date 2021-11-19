@@ -1,101 +1,139 @@
 # final-project
 '---------------------'
 # Bulbasaur No. 1
+Grass
 
 # Ivysaur No. 2
+Grass
 
 # Venusaur No. 3
+Grass
 
 # Charmander No. 4
+Fire
 
 # Charmeleon No. 5
+Fire
 
 # Charzard No. 6
+Fire
 
 # Squitle No. 7
+Water
 
 # Wartortle No. 8
+Water
 
-# Caterpie No. 9
+# Blastoise No. 9
+Water
 
-# Metapod No. 10
+# Caterpie No. 10
+Bug
 
-# Butterfree No. 11
+# Metapod No. 11
+Bug
 
-# Weedle No. 12
+# Butterfree No. 12
+Bug
 
-# Kakuna No. 13
+# Weedle No. 13
+Bug
 
-# Beedrill No. 14
+# Kakuna No. 14
+Bug
 
-# Pidgey15
+# Beedrill No. 15
+Bug
 
-# Pidgeotto16
+# Pidgey No. 16
+Flying
 
-# Pidgeot17
+# Pidgeotto No. 17
+Flying
 
-# Rattata18
+# Pidgeot No. 18
+Flying
 
-# Radicate19
+# Rattata No. 19
+Normal
 
-# Spearow20
+# Radicate No. 20
+Normal
 
-# Fearow21
+# Spearow No. 21
+Flying
 
-# Ekans22
+# Fearow No. 22
+Flying
 
-# Arbok23
+# Ekans No. 23
+Poison
 
-# Pikachu No24
+# Arbok No. 24
+Poison
 
-# Raichu No. 25
+# Pikachu No. 25
+Electric
 
-# Sandshrew No. 26
+# Raichu No. 26
+Electric
 
-# Sandslash No. 27
+# Sandshrew No. 27
+Ground
 
-# Nidoran (Female) No. 28
+# Sandslash No. 28
+Ground
 
-# Nidorina No. 29
+# Nidoran (Female) No. 29
+Poison
 
-# Nidoqueen No. 30
+# Nidorina No. 30
+Poison
 
-# Nidoran (Male) No. 31
+# Nidoqueen No. 31
+Poison
 
-# Nidorino No. 32
+# Nidoran (Male) No. 32
+Poison
 
-# Nidoking No. 33
+# Nidorino No. 33
+Poison
 
-# Clefairy No. 34
+# Nidoking No. 34
+Poison
 
-# Clefable No. 35
+# Clefairy No. 35
 
-# Vulpix No. 36
+# Clefable No. 36
 
-# Ninetales No. 37
+# Vulpix No. 37
 
-# Jigglypuff No. 38
+# Ninetales No. 38
 
-# Wigglytuff No. 39
+# Jigglypuff No. 39
 
-# Zubat No. 40
+# Wigglytuff No. 40
 
-# Golbat No. 41
+# Zubat No. 41
 
-# Oddish No. 42
+# Golbat No. 42
 
-# Gloom No. 43
+# Oddish No. 43
 
-# Vileplume No. 44
+# Gloom No. 44
 
-# Paras No. 45
+# Vileplume No. 45
 
-# Parasect No. 46
+# Paras No. 46
 
-# Venonat No. 47
+# Parasect No. 47
 
-# Venomoth No. 48
+# Venonat No. 48
 
-# Diglett No. 49
+# Venomoth No. 49
 
-# Dugtrio No. 50
+# Diglett No. 50
+Ground
+
+# Dugtrio No. 51
+Ground
