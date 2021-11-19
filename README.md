@@ -103,34 +103,49 @@ Poison
 Poison
 
 # Clefairy No. 35
+Normal
 
 # Clefable No. 36
+Normal
 
 # Vulpix No. 37
+Fire
 
 # Ninetales No. 38
+Fire
 
 # Jigglypuff No. 39
+Normal
 
 # Wigglytuff No. 40
+Normal
 
 # Zubat No. 41
+Poison
 
 # Golbat No. 42
+Poison
 
 # Oddish No. 43
+Grass
 
 # Gloom No. 44
+Grass
 
 # Vileplume No. 45
+Grass
 
 # Paras No. 46
+Bug
 
 # Parasect No. 47
+Bug
 
 # Venonat No. 48
+bug
 
 # Venomoth No. 49
+Bug
 
 # Diglett No. 50
 Ground
