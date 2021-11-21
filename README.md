@@ -1,169 +1,219 @@
-# final project
-#pokedex and battle simulator
+#final project: pokedex and battle simulator
+#sofia cordero, matt burkhimer, & nazli iclal karaman
 
-input_string=input("Select a number from 1-51: ");
+input_string=input("Type a number from 1-51 to choose your character: ");
+
 if (input_string=="1"):
-  print("hi")
+  print("bulbasaur")
+  #grass
+  
 elif(input_string=="2"):
-  ivysaur();
+  print("ivysaur")
+  #grass
+  
 elif(input_string=="3"):
-  venusaur();
+  print("venusaur")
+  #grass
+  
 elif(input_string=="4"):
+  print("charmander")
+  #fire
+  
 elif(input_string=="5"):
+  print("charmeleon")
+  #fire
+  
 elif(input_string=="6"):
-elif(input_string=="3"):
+  print("charzard")
+  #fire
+  
+elif(input_string=="7"):
+  print("squitle")
+  #water
+  
+elif(input_string=="8"):
+  print("wartortle")
+  #water
+
+elif(input_string=="9"):
+  print("blastoise")
+  #water
+
+elif(input_string=="10"):
+  print("caterpie")
+  #bug
+
+elif(input_string=="11"):
+  print("metapod")
+  #bug
+
+elif(input_string=="12"):
+  print("butterfree")
+  #bug
+
+elif(input_string=="13"):
+  print("weedle")
+  #bug
+
+elif(input_string=="14"):
+  print("kakuna")
+  #bug
+
+elif(input_string=="15"):
+  print("beedrill")
+  #bug
+
+elif(input_string=="16"):
+  print("pidgey")
+  #flying
+
+elif(input_string=="17"):
+  print("pidgeotto")
+  #flying
+
+elif(input_string=="18"):
+  print("pidgeot")
+  #flying
+  
+elif(input_string=="19"):
+  print("rattata")
+  #normal
+  
+elif(input_string=="20"):
+  print("radicate")
+  #normal
+  
+elif(input_string=="21"):
+  print("spearow")
+  #flying
+  
+elif(input_string=="22"):
+  print("fearow")
+  #flying
+  
+elif(input_string=="23"):
+  print("ekans")
+  #poison
+  
+elif(input_string=="24"):  
+  print("arbok")
+  #poison
+  
+elif(input_string=="25"):
+  print("pikachu")
+  #electric
+
+elif(input_string=="26"):
+  print("raichu")
+  #electric
+
+elif(input_string=="27"):
+  print("sandshrew")
+  #ground
+  
+elif(input_string=="28"):
+  print("sandslash")
+  #ground
+
+elif(input_string=="29"):
+  print("nidoran-female")
+  #poison
+  
+elif(input_string=="30"):
+  print("nidorina")
+  #poison
+  
+elif(input_string=="31"):
+  print("nidoqueen")
+  #poison
+
+elif(input_string=="32"):
+  print("nidoran-male")
+  #poison
+
+elif(input_string=="33"):
+  print("nidorino")
+  #poision
+  
+elif(input_string=="35"):
+  print("clefairy")
+  #normal
+
+elif(input_string=="36"):
+  print("clefable")
+  #normal
+  
+elif(input_string=="37"):
+  print("vulpix")
+  #fire
+  
+elif(input_string=="38"):
+  print("ninetales")
+  #fire
+  
+elif(input_string=="39"):
+  print("jigglypuff")
+  #normal
+
+elif(input_string=="40"):
+  print("wigglytuff")
+  #normal
+
+elif(input_string=="41"):
+  print("zubat")
+  #poison
+  
+elif(input_string=="42"):
+  print("golbat")
+  #poison
+
+elif(input_string=="43"):
+  print("oddish")
+  #grass
+
+elif(input_string=="44"):
+  print("gloom")
+  grass
+
+elif(input_string=="45"):
+  print("vileplume")
+  #grass
+ 
+elif(input_string=="46"):
+  print("paras")
+  #bug
+  
+elif(input_string=="47"):
+  print("parasect")
+  #bug
+
+elif(input_string=="48"):
+  print("venonat")
+  #bug
+  
+elif(input_string=="49"):
+  print("venomoth")
+  #bug
+  
+elif(input_string=="50"):
+  print("diglett")
+  #ground
+
+elif(input_string=="51"):
+  print("dugtrio")
+  #ground
+
+else:
+  print("invalid input, please try again")
+  
+
+#we need to add the rest of the information about the characters
+
+#we need to write code that randomly selects a character for the computer and battles it against the users chosen character
+#the battle winner determined by which type of character beats which type of character or if types are same there is a tie (complicated rock paper scissors
+#types = ground, normal, bug, poison, fire, water, flying, grass, electric
+#battle simulation must show pictures of the two characeters battling
 
 
-'---------------------'
-# Bulbasaur No. 1
-Grass
 
-# Ivysaur No. 2
-Grass
 
-# Venusaur No. 3
-Grass
-
-# Charmander No. 4
-Fire
-
-# Charmeleon No. 5
-Fire
-
-# Charzard No. 6
-Fire
-
-# Squitle No. 7
-Water
-
-# Wartortle No. 8
-Water
-
-# Blastoise No. 9
-Water
-
-# Caterpie No. 10
-Bug
-
-# Metapod No. 11
-Bug
-
-# Butterfree No. 12
-Bug
-
-# Weedle No. 13
-Bug
-
-# Kakuna No. 14
-Bug
-
-# Beedrill No. 15
-Bug
-
-# Pidgey No. 16
-Flying
-
-# Pidgeotto No. 17
-Flying
-
-# Pidgeot No. 18
-Flying
-
-# Rattata No. 19
-Normal
-
-# Radicate No. 20
-Normal
-
-# Spearow No. 21
-Flying
-
-# Fearow No. 22
-Flying
-
-# Ekans No. 23
-Poison
-
-# Arbok No. 24
-Poison
-
-# Pikachu No. 25
-Electric
-
-# Raichu No. 26
-Electric
-
-# Sandshrew No. 27
-Ground
-
-# Sandslash No. 28
-Ground
-
-# Nidoran (Female) No. 29
-Poison
-
-# Nidorina No. 30
-Poison
-
-# Nidoqueen No. 31
-Poison
-
-# Nidoran (Male) No. 32
-Poison
-
-# Nidorino No. 33
-Poison
-
-# Nidoking No. 34
-Poison
-
-# Clefairy No. 35
-Normal
-
-# Clefable No. 36
-Normal
-
-# Vulpix No. 37
-Fire
-
-# Ninetales No. 38
-Fire
-
-# Jigglypuff No. 39
-Normal
-
-# Wigglytuff No. 40
-Normal
-
-# Zubat No. 41
-Poison
-
-# Golbat No. 42
-Poison
-
-# Oddish No. 43
-Grass
-
-# Gloom No. 44
-Grass
-
-# Vileplume No. 45
-Grass
-
-# Paras No. 46
-Bug
-
-# Parasect No. 47
-Bug
-
-# Venonat No. 48
-bug
-
-# Venomoth No. 49
-Bug
-
-# Diglett No. 50
-Ground
-
-# Dugtrio No. 51
-Ground
