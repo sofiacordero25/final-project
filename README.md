@@ -1,4 +1,19 @@
-# final-project
+# final project
+#pokedex and battle simulator
+
+input_string=input("Select a number from 1-51: ");
+if (input_string=="1"):
+  print("hi")
+elif(input_string=="2"):
+  ivysaur();
+elif(input_string=="3"):
+  venusaur();
+elif(input_string=="4"):
+elif(input_string=="5"):
+elif(input_string=="6"):
+elif(input_string=="3"):
+
+
 '---------------------'
 # Bulbasaur No. 1
 Grass
