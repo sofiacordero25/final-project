@@ -95,8 +95,8 @@ elif(input_string=="23"):
   print("ekans")
   #poison
   
-elif(input_string=="24"):  
-  print("arbok")
+elif(input_string=="24"):
+print("arbok")
   #poison
   
 elif(input_string=="25"):
