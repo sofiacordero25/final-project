@@ -204,7 +204,8 @@ elif(input_string=="51"):
   #ground
 
 else:
-  print("invalid input, please try again")
+  print("Invalid input, please try again.")
+#code to restart the input
   
 
 #we need to add the rest of the information about the characters
