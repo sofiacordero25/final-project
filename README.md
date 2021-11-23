@@ -60,157 +60,163 @@ elif(input_string=="9"):
 elif(input_string=="10"):
   print("caterpie")
   #Type: bug
-  #Weaknesses:
+  #Weaknesses: Fire, Flying, Rock
   #Entry:
 
 elif(input_string=="11"):
   print("metapod")
   #Type: bug
-  #Weaknesses:
+  #Weaknesses: Fire, Flying, Rock
   #Entry:
   
 elif(input_string=="12"):
   print("butterfree")
-  #Type: bug
-  #Weaknesses:
+  #Type: bug, flying
+  #Weaknesses: Fire, Flying, Rock
   #Entry:
   
 elif(input_string=="13"):
   print("weedle")
   #Type: bug
-  #Weaknesses:
+  #Weaknesses: Fire, Flying, Rock
   #Entry:
   
 elif(input_string=="14"):
   print("kakuna")
   #Type: bug
-  #Weaknesses:
+  #Weaknesses: Fire, Flying, Rock
   #Entry:
   
 elif(input_string=="15"):
   print("beedrill")
-  #Type: bug
-  #Weaknesses:
+  #Type: bug, flying
+  #Weaknesses: Fire, Flying, Rock
   #Entry:
   
 elif(input_string=="16"):
   print("pidgey")
-  #Type: flying
-  #Weaknesses:
+  #Type: normal, flying
+  #Weaknesses: Electric, Ice, Rock
   #Entry:
   
 elif(input_string=="17"):
   print("pidgeotto")
-  #Type: flying
-  #Weaknesses:
+  #Type: normal, flying
+  #Weaknesses: Electric, Ice, Rock
   #Entry:
   
 elif(input_string=="18"):
   print("pidgeot")
-  #Type: flying
-  #Weaknesses:
+  #Type: normal, flying
+  #Weaknesses: Electric, Ice, Rock
   #Entry:
   
 elif(input_string=="19"):
   print("rattata")
   #Type: normal
-  #Weaknesses:
+  #Weaknesses: fighting
   #Entry:
   
 elif(input_string=="20"):
   print("radicate")
   #Type: normal
-  #Weaknesses:
+  #Weaknesses: fighting
   #Entry:
   
 elif(input_string=="21"):
   print("spearow")
-  #Type: flying
-  #Weaknesses:
+  #Type: normal, flying
+  #Weaknesses: Electric, Ice, Rock
   #Entry:
   
 elif(input_string=="22"):
   print("fearow")
-  #Type: flying
-  #Weaknesses:
+  #Type: normal, flying
+  #Weaknesses: Electric, Ice, Rock
   #Entry:
   
 elif(input_string=="23"):
   print("ekans")
   #Type: poison
-  #Weaknesses:
+  #Weaknesses: psyhic, ground
   #Entry:
   
 elif(input_string=="24"):
 print("arbok")
   #Type: poison
-  #Weaknesses:
+  #Weaknesses: psyhic, ground
   #Entry:
   
 elif(input_string=="25"):
   print("pikachu")
   #Type: electric
-  #Weaknesses:
+  #Weaknesses: Ground
   #Entry:
   
 elif(input_string=="26"):
   print("raichu")
   #Type: electric
-  #Weaknesses:
+  #Weaknesses: Ground
   #Entry:
   
 elif(input_string=="27"):
   print("sandshrew")
   #Type: ground
-  #Weaknesses:
+  #Weaknesses: Water, Grass, Ice
   #Entry:
   
 elif(input_string=="28"):
   print("sandslash")
   #Type: ground
-  #Weaknesses:
+  #Weaknesses: Water, Grass, Ice
   #Entry:
   
 elif(input_string=="29"):
   print("nidoran-female")
   #Type: poison
-  #Weaknesses:
+  #Weaknesses: Psyhic, Ground
   #Entry:
   
 elif(input_string=="30"):
   print("nidorina")
   #Type: poison
-  #Weaknesses:
+  #Weaknesses: Psyhic, Ground
   #Entry:
   
 elif(input_string=="31"):
   print("nidoqueen")
-  #Type: poison
-  #Weaknesses:
+  #Type: poison, ground
+  #Weaknesses: Water, Psyhic, Ice, Ground
   #Entry:
   
 elif(input_string=="32"):
   print("nidoran-male")
   #Type: poison
-  #Weaknesses:
+  #Weaknesses: Psyhic, Ground
   #Entry:
   
 elif(input_string=="33"):
   print("nidorino")
   #Type: poision
-  #Weaknesses:
+  #Weaknesses: Psyhic, Ground
+  #Entry:
+  
+  elif(input_string=="34"):
+  print("nidoking")
+  #Type: poison, ground
+  #Weaknesses: Water, Psyhic, Ice, Ground
   #Entry:
   
 elif(input_string=="35"):
   print("clefairy")
-  #Type: normal
-  #Weaknesses:
+  #Type: fairy
+  #Weaknesses: steel, poison
   #Entry:
   
 elif(input_string=="36"):
   print("clefable")
-  #Type: normal
-  #Weaknesses:
+  #Type: fairy
+  #Weaknesses: steel, poison
   #Entry:
   
 elif(input_string=="37"):
@@ -227,55 +233,55 @@ elif(input_string=="38"):
   
 elif(input_string=="39"):
   print("jigglypuff")
-  #Type: normal
-  #Weaknesses:
+  #Type: normal, fairy
+  #Weaknesses: steel, poison
   #Entry:
   
 elif(input_string=="40"):
   print("wigglytuff")
-  #Type: normal
-  #Weaknesses: 
+  #Type: normal, fairy
+  #Weaknesses: steel, poison
   #Entry:
   
 elif(input_string=="41"):
   print("zubat")
-  #Type: poison
-  #Weaknesses:
+  #Type: poison, flying
+  #Weaknesses: Psyhic, Electric, Ice, Rock
   #Entry:
   
 elif(input_string=="42"):
   print("golbat")
-  #Type: poison
-  #Weaknesses:
+  #Type: poison, flying
+  #Weaknesses: Psyhic, Electric, Ice, Rock
   #Entry:
   
 elif(input_string=="43"):
   print("oddish")
-  #Type: grass
-  #Weaknesses:
+  #Type: grass, poison
+  #Weaknesses: Fire, Psyhic, Flying, Ice
   #Entry:
   
 elif(input_string=="44"):
   print("gloom")
-  #Type: grass
-  #Weaknesses:
+  #Type: grass, poison
+  #Weaknesses: Fire, Psyhic, Flying, Ice
   #Entry:
   
 elif(input_string=="45"):
   print("vileplume")
-  #Type: grass
-  #Weaknesses:
+  #Type: grass, poison
+  #Weaknesses: Fire, Psyhic, Flying, Ice
   #Entry:
   
 elif(input_string=="46"):
   print("paras")
-  #Type: bug
-  #Weaknesses:
+  #Type: bug, grass
+  #Weaknesses: Fire, Flying, Ice
   #Entry:
   
 elif(input_string=="47"):
   print("parasect")
-  #Type: bug
+  #Type: bug, grass
   #Weaknesses:
   #Entry:
   
