@@ -2,16 +2,16 @@
 #sofia cordero, matt burkhimer, & nazli iclal karaman
 import random
 
-input_string=input("Type a number from 1-51 to choose your character: ");
-
-if (input_string=="1"):
-  print("Bulbasaur")
-  print("Type: Grass, Poison")
-  print("Weaknesses: Fire, Psyhic, Flying, Ice")
-  print("Entry: There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.")
+input_string=int(input("Type a number from 1-51 to choose your character: "))
+if  a <= 51 and a >= 1:
+    if (input_string=="1"):
+        print("Bulbasaur")
+        print("Type: Grass, Poison")
+        print("Weaknesses: Fire, Psyhic, Flying, Ice")
+        print("Entry: There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.")
   
-elif(input_string=="2"):
-  print("Ivysaur")
+    elif(input_string=="2"):
+        print("Ivysaur")
   print("Type: Grass, Poison")
   print("Weaknesses: Fire, Psyhic, Flying, Ice")
   print("Entry: When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.")
