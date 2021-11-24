@@ -318,7 +318,7 @@ else:
 
 #we need to write code that randomly selects a character for the computer and battles it against the users chosen character
 #the battle winner determined by which type of character beats which type of character or if types are same there is a tie (complicated rock paper scissors
-#types = ground, normal, bug, poison, fire, water, flying, grass, electric
+#types = ground, normal, bug, poison, fire, water, flying, grass, electric, fairy
 #battle simulation must show pictures of the two characeters battling
 
 
