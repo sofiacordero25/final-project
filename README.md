@@ -669,7 +669,7 @@ while True:
             break
     
     else:
-        print("You did not enter a valid option")
+        print("You did not enter a valid option.")
         print("Please try again!")
         input_string=int(input("Type a number from 1-51 to choose your character: "))
     
