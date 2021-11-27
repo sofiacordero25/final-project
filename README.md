@@ -682,6 +682,14 @@ while True:
 #types = ground, normal, bug, poison, fire, water, flying, grass, electric, fairy
 #battle simulation must show pictures of the two characeters battling
 
-
-
+#grass < fire, flying ice, poison, bug
+#fire < water, ground, rock
+#water < grass, electric
+#bug < fire, flying, rock
+#normal < fighting
+#flying < rock, steel, electric
+#poison < psyhic, ground
+#electric < ground
+#ground < water, grass, ice
+#fairy < steel, poison
 
