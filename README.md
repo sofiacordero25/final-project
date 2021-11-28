@@ -725,6 +725,26 @@ while True:
         input_string=int(input("Type a number from 1-51 to choose your character: "))
     
         #to restart the code
+## I think the computer part is gonna be smt like this
+#import random
+input_string = random.randint(1,4)
+if input_string == 1:
+        print("Bulbasaur")
+        print("Type: Grass, Poison")
+        print("Weaknesses: Fire, Psyhic, Flying, Ice")
+        print("Entry: There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.")
+elif input_string == 2:
+        print("Ivysaur")
+        print("Type: Grass, Poison")
+        print("Weaknesses: Fire, Psyhic, Flying, Ice")
+        print("Entry: When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.")
+elif input_string == 3:
+        print("Venusaur")
+        print("Type: Grass, Poison")
+        print("Weaknesses: Fire, Psyhic, Flying, Ice")
+        print("Entry: Its plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.")
+  
+  
   
 
 
