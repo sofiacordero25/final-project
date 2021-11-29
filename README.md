@@ -220,7 +220,7 @@ while True:
         print("Type: Normal, Flying")
         print("Weaknesses: Electric, Ice, Rock")
         print("Entry: Very docile. If attacked, it will often kick up sand to protect itself rather than fight back.")
-       ask_user = input("Would you like to switch your character? Y/N ")
+        ask_user = input("Would you like to switch your character? Y/N ")
         ask_user = ask_user.upper()
         if ask_user == "Yes" or ask_user == "Y":
             input_string=int(input("Type a number from 1-51 to choose your character: "))
@@ -290,7 +290,7 @@ while True:
         print("Type: Normal, Flying")
         print("Weaknesses: Electric, Ice, Rock")
         print("Entry: Inept at flying high. However, it can fly around very fast to protect its territory.")
-       ask_user = input("Would you like to switch your character? Y/N ")
+        ask_user = input("Would you like to switch your character? Y/N ")
         ask_user = ask_user.upper()
         if ask_user == "Yes" or ask_user == "Y":
             input_string=int(input("Type a number from 1-51 to choose your character: "))
@@ -444,7 +444,7 @@ while True:
         print("Type: Poison")
         print("Weaknesses: Psyhic, Ground")
         print("Entry: The horn on a male Nidoran’s forehead contains a powerful poison. This is a very cautious Pokémon, always straining its large ears.")
-       ask_user = input("Would you like to switch your character? Y/N ")
+        ask_user = input("Would you like to switch your character? Y/N ")
         ask_user = ask_user.upper()
         if ask_user == "Yes" or ask_user == "Y":
             input_string=int(input("Type a number from 1-51 to choose your character: "))
@@ -500,7 +500,7 @@ while True:
         print("Type: Fairy")
         print("Weaknesses: Steel, Poison")
         print("Entry: A timid fairy Pokémon that is rarely seen, it will run and hide the moment it senses people.")
-       ask_user = input("Would you like to switch your character? Y/N ")
+        ask_user = input("Would you like to switch your character? Y/N ")
         ask_user = ask_user.upper()
         if ask_user == "Yes" or ask_user == "Y":
             input_string=int(input("Type a number from 1-51 to choose your character: "))
@@ -584,7 +584,7 @@ while True:
         print("Type: Poison, Flying")
         print("Weaknesses: Psyhic, Electric, Ice, Rock")
         print("Entry: It loves to drink other creatures’ blood. It’s said that if it finds others of its kind going hungry, it sometimes shares the blood it’s gathered.")
-       ask_user = input("Would you like to switch your character? Y/N ")
+        ask_user = input("Would you like to switch your character? Y/N ")
         ask_user = ask_user.upper()
         if ask_user == "Yes" or ask_user == "Y":
             input_string=int(input("Type a number from 1-51 to choose your character: "))
