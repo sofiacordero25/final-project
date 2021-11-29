@@ -1,6 +1,7 @@
 #final project: pokedex and battle simulator
 #sofia cordero, matt burkhimer, & nazli iclal karaman
-import random
+
+#choosing the user's character
 
 input_string=int(input("Type a number from 1-51 to choose your character: "))
 while True:
@@ -725,6 +726,11 @@ while True:
         input_string=int(input("Type a number from 1-51 to choose your character: "))
     
         #to restart the code
+        
+        
+#choosing the computer's character (at random)
+
+
 ## I think the computer part is gonna be smt like this
 #import random
 input_string = random.randint(1,4)
@@ -743,15 +749,11 @@ elif input_string == 3:
         print("Type: Grass, Poison")
         print("Weaknesses: Fire, Psyhic, Flying, Ice")
         print("Entry: Its plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.")
-  
-  
-  
 
 
-#we need to write code that randomly selects a character for the computer and battles it against the users chosen character
-#the battle winner determined by which type of character beats which type of character or if types are same there is a tie (complicated rock paper scissors
-#types = ground, normal, bug, poison, fire, water, flying, grass, electric, fairy
-#battle simulation must show pictures of the two characeters battling
+
+
+
 
 #grass < fire, flying ice, poison, bug
 #fire < water, ground, rock
