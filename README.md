@@ -1305,46 +1305,7 @@ Venomoth = bug
 Diglett = ground
 Dugtrio = ground
 
-
-#primary type options: grass water fire bug normal poison electric fairy ground
-
-#grass 
-wins aginst: ground, water, electric, fairy
-looses against: fire, posion, bug
-
-#water
-wins aginast: fire, ground, bug, normal, poison, fairy
-looses against: grass, electric
-
-#fire
-wins against: grass, bug, normal, poison, electric, fairy 
-looses against: water, ground
-
-#bug
-wins against: grass, water, normal, poison, electric, fairy, ground
-looses against: fire
-
-#normal
-wins against: grass, water, fire, bug, poison, electric, fairy, ground
-looses against: 
-
-#posion
-wins against: grass, water, fire, bug, normal, electric, fairy 
-looses against: ground
-
-#electric
-wins against: grass, water, fire, bug, normal, poison, fairy 
-looses against: ground
-
-#fairy
-wins against: grass, water, fire, bug, normal, electric, ground
-looses against: poison
-
-#ground
-wins against: fire, bug, normal, poison, electric, fairy 
-looses against: water, grass
-
-If input_string == grass:
+if input_string == grass:
    if input_string2 == grass:
       print("You tied with the computer!")
    elif input_string2==fire:
@@ -1376,7 +1337,7 @@ elif input_string == fire:
     else:
       print("You won to the computer!")
  
- elif input_string == bug:
+elif input_string == bug:
     if input_string2 == bug:
       print("You tied with the computer!")
     elif input_string2 == fire: 
@@ -1384,7 +1345,7 @@ elif input_string == fire:
     else:
       print("You won to the computer!")   
       
-  elif input_string == normal:
+elif input_string == normal:
     if input_string2 == normal:
       print("You tied with the computer!")
     else:
