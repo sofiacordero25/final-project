@@ -1250,6 +1250,9 @@ print()
 
 #battle simulator
 
+print("Time to battle!...Your character vs. the computer's!")
+print()
+
 Bulbasaur = grass
 Ivysaur = grass
 Venusaur = grass
@@ -1341,31 +1344,83 @@ looses against: poison
 wins against: fire, bug, normal, poison, electric, fairy 
 looses against: water, grass
 
-
-if input_string == input_string2
-   print(You tied with the computer!)
-   
-elif input_string == grass
-   if input_string2 == fire
+If input_string == grass:
+   if input_string2 == grass:
+      print("You tied with the computer!")
+   elif input_string2==fire:
       print ("You lost to the computer!")
-   elif input_string2 == poison
+   elif input_string2 == poison:
       print ("You lost to the computer!")
-   elif input_string2 == bug
+   elif input_string2 == bug:
       print("You lost to the computer!")
    else:
       print("You won to the computer!")
       
-elif input_string == water 
-   if input_string2 == grass
+elif input_string == water:
+   if input_string2 == water:
+      print ("You tied with the computer!")
+   elif input_string2 == grass:
       print("You lost to the computer!")
-   elif input_string2 == electric
+   elif input_string2 == electric:
       print("You lost to the computer!")
    else:
       print ("You won to the computer!")
-     
-
-
-   
       
+elif input_string == fire:
+    if input_string2 == fire:
+      print("You tied with the computer!")
+    elif input_string2 == water: 
+      print("You lost to the computer!")
+    elif input_string2 == ground:
+      print("You lost to the computer!")
+    else:
+      print("You won to the computer!")
  
+ elif input_string == bug:
+    if input_string2 == bug:
+      print("You tied with the computer!")
+    elif input_string2 == fire: 
+      print("You lost to the computer!")
+    else:
+      print("You won to the computer!")   
+      
+  elif input_string == normal:
+    if input_string2 == normal:
+      print("You tied with the computer!")
+    else:
+      print("You won to the computer!") 
+      
+elif input_string == poison:
+    if input_string2 == poison:
+      print("You tied with the computer!")
+    elif input_string2 == ground:
+      print("You lost to the computer!")
+    else:
+      print("You won to the computer!")   
+      
+      
+elif input_string == electric:
+    if input_string2 == electric:
+      print("You tied with the computer!")
+    elif input_string2 == ground: 
+      print("You lost to the computer!")
+    else:
+      print("You won to the computer!")
 
+elif input_string == fairy:
+    if input_string2 == fairy:
+      print("You tied with the computer!")
+    elif input_string2 == poison: 
+      print("You lost to the computer!")
+    else:
+      print("You won to the computer!")
+      
+elif input_string == ground:
+    if input_string2 == ground:
+      print("You tied with the computer!")
+    elif input_string2 == water: 
+      print("You lost to the computer!")
+    elif input_string2 == grass:
+      print("You lost to the computer!")
+    else:
+      print("You won to the computer!")
