@@ -103,7 +103,7 @@ while True:
             break
   
     elif input_string == 7:
-        print("Squitle")
+        print("Squirtle")
         print("Type: Water")
         print("Weaknesses: Grass, Electric")
         print("Entry: When it retracts its long neck into its shell, it squirts out water with vigorous force.")
@@ -887,7 +887,7 @@ elif input_string_two == 6:
         image.show()
         
 elif input_string_two == 7:
-        print("Squitle")
+        print("Squirtle")
         print("Type: Water")
         print("Weaknesses: Grass, Electric")
         print("Entry: When it retracts its long neck into its shell, it squirts out water with vigorous force.")
@@ -1250,13 +1250,13 @@ print()
 
 #battle simulator
 
-1 = grass
-2 = grass
-3 = grass
-4 = fire
-5 = fire
-6 = fire
-7 = water
+Bulbasaur = grass
+Ivysaur = grass
+Venusaur = grass
+Charmander = fire
+Charmeleon = fire
+Charzard = fire
+Squitle = water
 8 = water
 9 = water
 10 = bug
@@ -1304,6 +1304,9 @@ print()
 
 
 grass water fire bug normal poison electric fairy
+
+if input_string == grass
+   
 
 #grass < fire, flying ice, poison, bug
 #fire < water, ground, rock
