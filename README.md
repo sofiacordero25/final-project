@@ -1256,66 +1256,116 @@ Venusaur = grass
 Charmander = fire
 Charmeleon = fire
 Charzard = fire
-Squitle = water
-8 = water
-9 = water
-10 = bug
-11 = bug
-12 = bug
-13 = bug
-14 = bug
-15 = bug
-16 = normal
-17 = normal
-18 = normal
-19 = normal
-20 = normal
-21 = normal
-22 = normal
-23 = poison
-24 = poison
-25 = electric
-26 = electric
-27 = ground
-28 = ground
-29 = poison
-30 = poison
-31 = posion
-32 = poison
-33 = poison
-34 = poison
-35 = fairy
-36 = fairy
-37 = fire
-38 = fire
-39 = normal
-40 = normal
-41 = poison
-42 = poison
-43 = grass
-44 = grass
-45 = grass
-46 = bug
-47 = bug
-48 = bug
-49 = bug
-50 = ground
-51 = ground
+Squirtle = water
+Wartortle = water
+Blastoise = water
+Caterpie = bug
+Metapod = bug
+Butterfree = bug
+Weedle = bug
+Kakuna = bug
+Beedrill = bug
+Pidgey = normal
+Pidegeotto = normal
+Pidgeot = normal
+Fattata = normal
+Radicate = normal
+Spearow = normal
+Fearow = normal
+Ekans = poison
+Arbok = poison
+Pikachu = electric
+Raichu = electric
+Sandshrew = ground
+Sandslash = ground
+Nidoran-female = poison
+Nidorina = poison
+Nidoqueen = posion
+Nidoran-male = poison
+Nidorino = poison
+Nidoking = poison
+Clefairy = fairy
+Clefable = fairy
+Vulpix = fire
+Ninetales = fire
+Jigglypuff = normal
+Wigglypuff = normal
+Zubat = poison
+Golbat = poison
+Oddish = grass
+Gloom = grass
+Vileplume = grass
+Paras = bug
+Parasect = bug
+Venomat = bug
+Venomoth = bug
+Diglett = ground
+Dugtrio = ground
 
 
-grass water fire bug normal poison electric fairy
+#primary type options: grass water fire bug normal poison electric fairy ground
 
-if input_string == grass
+#grass 
+wins aginst: ground, water, electric, fairy
+looses against: fire, posion, bug
+
+#water
+wins aginast: fire, ground, bug, normal, poison, fairy
+looses against: grass, electric
+
+#fire
+wins against: grass, bug, normal, poison, electric, fairy 
+looses against: water, ground
+
+#bug
+wins against: grass, water, normal, poison, electric, fairy, ground
+looses against: fire
+
+#normal
+wins against: grass, water, fire, bug, poison, electric, fairy, ground
+looses against: 
+
+#posion
+wins against: grass, water, fire, bug, normal, electric, fairy 
+looses against: ground
+
+#electric
+wins against: grass, water, fire, bug, normal, poison, fairy 
+looses against: ground
+
+#fairy
+wins against: grass, water, fire, bug, normal, electric, ground
+looses against: poison
+
+#ground
+wins against: fire, bug, normal, poison, electric, fairy 
+looses against: water, grass
+
+
+if input_string == input_string2
+   print(You tied with the computer!)
    
+elif input_string == grass
+   if input_string2 == fire
+      print ("You lost to the computer!")
+   elif input_string2 == poison
+      print ("You lost to the computer!")
+   elif input_string2 == bug
+      print("You lost to the computer!")
+   else:
+      print("You won to the computer!")
+      
+elif input_string == water 
+   if input_string2 == grass
+      print("You lost to the computer!")
+   elif input_string2 == electric
+      print("You lost to the computer!")
+   else:
+      print ("You won to the computer!")
+     
 
-#grass < fire, flying ice, poison, bug
-#fire < water, ground, rock
-#water < grass, electric
-#bug < fire, flying, rock
-#normal < fighting
-#flying < rock, steel, electric
-#poison < psyhic, ground
-#electric < ground
-#ground < water, grass, ice
-#fairy < steel, poison
+
+   
+      
+ 
 
