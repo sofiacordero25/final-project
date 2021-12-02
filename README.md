@@ -391,8 +391,8 @@ while True:
             break
   
     elif input_string == 25:
-        print("pikachu")
-        print("Type: electric")
+        print("Pikachu")
+        print("Type: Electric")
         print("Weaknesses: Ground")
         print("Entry: Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.")
         image = Image.open('025.png')
@@ -407,8 +407,8 @@ while True:
             break
    
     elif input_string == 26:
-        print("raichu")
-        print("Type: electric")
+        print("Raichu")
+        print("Type: Electric")
         print("Weaknesses: Ground")
         print("Entry: Its long tail serves as a ground to protect itself from its own high-voltage power.")
         image = Image.open('026.png')
@@ -837,8 +837,8 @@ print("The computer's character is...")
 
 import random
 
-input_string = random.randint(1,4)
-if input_string == 1:
+input_string_two = random.randint(1,4)
+if input_string_two == 1:
         print("Bulbasaur")
         print("Type: Grass, Poison")
         print("Weaknesses: Fire, Psyhic, Flying, Ice")
@@ -846,7 +846,7 @@ if input_string == 1:
         image = Image.open('001.png')
         image.show()
         
-elif input_string == 2:
+elif input_string_two == 2:
         print("Ivysaur")
         print("Type: Grass, Poison")
         print("Weaknesses: Fire, Psyhic, Flying, Ice")
@@ -854,7 +854,7 @@ elif input_string == 2:
         image = Image.open('002.png')
         image.show()
         
-elif input_string == 3:
+elif input_string_two == 3:
         print("Venusaur")
         print("Type: Grass, Poison")
         print("Weaknesses: Fire, Psyhic, Flying, Ice")
@@ -862,7 +862,7 @@ elif input_string == 3:
         image = Image.open('003.png')
         image.show()
         
-elif input_string == 4:
+elif input_string_two == 4:
         print("Charmander")
         print("Type: Fire")
         print("Weaknesses: Water, Ground, Rock")
@@ -870,7 +870,7 @@ elif input_string == 4:
         image = Image.open('004.png')
         image.show()
         
-elif input_string == 5 :
+elif input_string_two == 5 :
         print("Charmeleon")
         print("Type: Fire")
         print("Weaknesses: Water, Ground, Rock")
@@ -878,7 +878,7 @@ elif input_string == 5 :
         image = Image.open('005.png')
         image.show()
         
-elif input_string == 6:
+elif input_string_two == 6:
         print("Charzard")
         print("Type: Fire, Flying")
         print("Weaknesses: Water, Ground, Rock")
@@ -886,7 +886,7 @@ elif input_string == 6:
         image = Image.open('006.png')
         image.show()
         
-elif input_string == 7:
+elif input_string_two == 7:
         print("Squitle")
         print("Type: Water")
         print("Weaknesses: Grass, Electric")
@@ -894,7 +894,7 @@ elif input_string == 7:
         image = Image.open('007.png')
         image.show()
         
-elif input_string == 8:
+elif input_string_two == 8:
         print("Wartortle")
         print("Type: Water")
         print("Weaknesses: Grass, Electric")
@@ -902,7 +902,7 @@ elif input_string == 8:
         image = Image.open('008.png')
         image.show()
         
-elif input_string == 9:
+elif input_string_two == 9:
         print("Blastoise")
         print("Type: Water")
         print("Weaknesses: Grass, Electic")
@@ -910,7 +910,7 @@ elif input_string == 9:
         image = Image.open('009.png')
         image.show()
         
-elif input_string == 10: 
+elif input_string_two == 10: 
         print("Caterpie")
         print("Type: Bug")
         print("Weaknesses: Fire, Flying, Rock")
@@ -918,7 +918,7 @@ elif input_string == 10:
         image = Image.open('010.png')
         image.show()
         
-elif input_string == 11:
+elif input_string_two == 11:
         print("Metapod")
         print("Type: Bug")
         print("Weaknesses: Fire, Flying, Rock")
@@ -926,7 +926,7 @@ elif input_string == 11:
         image = Image.open('011.png')
         image.show()
         
-elif input_string == 12:
+elif input_string_two == 12:
         print("Butterfree")
         print("Type: Bug, Flying")
         print("Weaknesses: Fire, Flying, Rock")
@@ -934,7 +934,7 @@ elif input_string == 12:
         image = Image.open('012.png')
         image.show()
         
-elif input_string == 13:
+elif input_string_two == 13:
         print("Weedle")
         print("Type: Bug")
         print("Weaknesses: Fire, Flying, Rock")
@@ -942,7 +942,7 @@ elif input_string == 13:
         image = Image.open('013.png')
         image.show()
         
-elif input_string == 14:
+elif input_string_two == 14:
         print("Kakuna")
         print("Type: Bug")
         print("Weaknesses: Fire, Flying, Rock")
@@ -950,7 +950,7 @@ elif input_string == 14:
         image = Image.open('014.png')
         image.show()
         
-elif input_string == 15:
+elif input_string_two == 15:
         print("Beedrill")
         print("Type: Bug, Flying")
         print("Weaknesses: Fire, Flying, Rock")
@@ -958,7 +958,7 @@ elif input_string == 15:
         image = Image.open('015.png')
         image.show()
         
-elif input_string == 16:
+elif input_string_two == 16:
         print("Pidgey")
         print("Type: Normal, Flying")
         print("Weaknesses: Electric, Ice, Rock")
@@ -966,7 +966,7 @@ elif input_string == 16:
         image = Image.open('016.png')
         image.show()
         
-elif input_string == 17:
+elif input_string_two == 17:
         print("Pidgeotto")
         print("Type: Normal, Flying")
         print("Weaknesses: Electric, Ice, Rock")
@@ -974,7 +974,7 @@ elif input_string == 17:
         image = Image.open('017.png')
         image.show()
         
-elif input_string == 18:
+elif input_string_two == 18:
         print("Pidgeot")
         print("Type: Normal, Flying")
         print("Weaknesses: Electric, Ice, Rock")
@@ -982,7 +982,7 @@ elif input_string == 18:
         image = Image.open('018.png')
         image.show()
         
-elif input_string == 19:
+elif input_string_two == 19:
         print("Fattata")
         print("Type: Normal")
         print("Weaknesses: Fighting")
@@ -990,7 +990,7 @@ elif input_string == 19:
         image = Image.open('019.png')
         image.show()
         
-elif input_string == 20:
+elif input_string_two == 20:
         print("Radicate")
         print("Type: Normal")
         print("Weaknesses: fighting")
@@ -998,7 +998,7 @@ elif input_string == 20:
         image = Image.open('020.png')
         image.show()
         
-elif input_string == 21:
+elif input_string_two == 21:
         print("Spearow")
         print("Type: Normal, Flying")
         print("Weaknesses: Electric, Ice, Rock")
@@ -1006,7 +1006,7 @@ elif input_string == 21:
         image = Image.open('021.png')
         image.show()
         
-elif input_string == 22:
+elif input_string_two == 22:
         print("Fearow")
         print("Type: Normal, Flying")
         print("Weaknesses: Electric, Ice, Rock")
@@ -1014,7 +1014,7 @@ elif input_string == 22:
         image = Image.open('022.png')
         image.show()
         
-elif input_string == 23:
+elif input_string_two == 23:
         print("Ekans")
         print("Type: Poison")
         print("Weaknesses: Psyhic, Ground")
@@ -1022,7 +1022,7 @@ elif input_string == 23:
         image = Image.open('023.png')
         image.show()
         
-elif input_string== 24:
+elif input_string_two == 24:
         print("Arbok")
         print("Type: Poison")
         print("Weaknesses: Psyhic, Ground")
@@ -1030,23 +1030,23 @@ elif input_string== 24:
         image = Image.open('024.png')
         image.show()
         
-elif input_string == 25:
-        print("pikachu")
-        print("Type: electric")
+elif input_string_two == 25:
+        print("Pikachu")
+        print("Type: Electric")
         print("Weaknesses: Ground")
         print("Entry: Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.")
         image = Image.open('025.png')
         image.show()
         
-elif input_string == 26:
-        print("raichu")
-        print("Type: electric")
+elif input_string_two == 26:
+        print("Raichu")
+        print("Type: Electric")
         print("Weaknesses: Ground")
         print("Entry: Its long tail serves as a ground to protect itself from its own high-voltage power.")
         image = Image.open('026.png')
         image.show()
         
-elif input_string == 27:
+elif input_string_two == 27:
         print("Sandshrew")
         print("Type: Ground")
         print("Weaknesses: Water, Grass, Ice")
@@ -1054,7 +1054,7 @@ elif input_string == 27:
         image = Image.open('027.png')
         image.show()
         
-elif input_string == 28:
+elif input_string_two == 28:
         print("Sandslash")
         print("Type: Ground")
         print("Weaknesses: Water, Grass, Ice")
@@ -1062,7 +1062,7 @@ elif input_string == 28:
         image = Image.open('028.png')
         image.show()
         
-elif input_string == 29:
+elif input_string_two == 29:
         print("Nidoran-female")
         print("Type: Poison")
         print("Weaknesses: Psyhic, Ground")
@@ -1070,7 +1070,7 @@ elif input_string == 29:
         image = Image.open('029.png')
         image.show()
         
-elif input_string == 30:
+elif input_string_two == 30:
         print("Nidorina")
         print("Type: Poison")
         print("Weaknesses: Psyhic, Ground")
@@ -1078,7 +1078,7 @@ elif input_string == 30:
         image = Image.open('030.png')
         image.show()
         
-elif input_string == 31:
+elif input_string_two == 31:
         print("Nidoqueen")
         print("Type: Poison, Ground")
         print("Weaknesses: Water, Psyhic, Ice, Ground")
@@ -1086,7 +1086,7 @@ elif input_string == 31:
         image = Image.open('031.png')
         image.show()
         
-elif input_string == 32:
+elif input_string_two == 32:
         print("Nidoran-male")
         print("Type: Poison")
         print("Weaknesses: Psyhic, Ground")
@@ -1094,7 +1094,7 @@ elif input_string == 32:
         image = Image.open('032.png')
         image.show()
         
-elif input_string == 33:
+elif input_string_two == 33:
         print("Nidorino")
         print("Type: Poision")
         print("Weaknesses: Psyhic, Ground")
@@ -1102,7 +1102,7 @@ elif input_string == 33:
         image = Image.open('033.png')
         image.show()
         
-elif input_string == 34:
+elif input_string_two == 34:
         print("Nidoking")
         print("Type: Poison, Ground")
         print("Weaknesses: Water, Psyhic, Ice, Ground")
@@ -1110,7 +1110,7 @@ elif input_string == 34:
         image = Image.open('034.png')
         image.show()
         
-elif input_string == 35:
+elif input_string_two == 35:
         print("Clefairy")
         print("Type: Fairy")
         print("Weaknesses: Steel, Poison")
@@ -1118,7 +1118,7 @@ elif input_string == 35:
         image = Image.open('035.png')
         image.show()
         
-elif input_string == 36:
+elif input_string_two == 36:
         print("Clefable")
         print("Type: Fairy")
         print("Weaknesses: Steel, Poison")
@@ -1126,7 +1126,7 @@ elif input_string == 36:
         image = Image.open('036.png')
         image.show()
         
-elif input_string == 37:
+elif input_string_two == 37:
         print("Vulpix")
         print("Type: Fire")
         print("Weaknesses:  Water, Ground, Rock")
@@ -1134,7 +1134,7 @@ elif input_string == 37:
         image = Image.open('037.png')
         image.show()
         
-elif input_string == 38:
+elif input_string_two == 38:
         print("Ninetales")
         print("Type: Fire")
         print("Weaknesses: Water, Ground, Rock")
@@ -1142,7 +1142,7 @@ elif input_string == 38:
         image = Image.open('038.png')
         image.show()
         
-elif input_string == 39:
+elif input_string_two == 39:
         print("Jigglypuff")
         print("Type: Normal, Fairy")
         print("Weaknesses: Steel, Poison")
@@ -1150,7 +1150,7 @@ elif input_string == 39:
         image = Image.open('039.png')
         image.show()
         
-elif input_string == 40:
+elif input_string_two == 40:
         print("Wigglytuff")
         print("Type: Normal, Fairy")
         print("Weaknesses: Steel, Poison")
@@ -1158,7 +1158,7 @@ elif input_string == 40:
         image = Image.open('040.png')
         image.show()
         
-elif input_string == 41:
+elif input_string_two == 41:
         print("Zubat")
         print("Type: Poison, Flying")
         print("Weaknesses: Psyhic, Electric, Ice, Rock")
@@ -1166,7 +1166,7 @@ elif input_string == 41:
         image = Image.open('041.png')
         image.show()
         
-elif input_string ==  42:
+elif input_string_two ==  42:
         print("Golbat")
         print("Type: Poison, Flying")
         print("Weaknesses: Psyhic, Electric, Ice, Rock")
@@ -1174,7 +1174,7 @@ elif input_string ==  42:
         image = Image.open('042.png')
         image.show()
         
-elif input_string == 43:
+elif input_string_two == 43:
         print("Oddish")
         print("Type: Grass, Poison")
         print("Weaknesses: Fire, Psyhic, Flying, Ice")
@@ -1182,7 +1182,7 @@ elif input_string == 43:
         image = Image.open('043.png')
         image.show()
         
-elif input_string == 44:
+elif input_string_two == 44:
         print("Gloom")
         print("Type: Grass, Poison")
         print("Weaknesses: Fire, Psyhic, Flying, Ice")
@@ -1190,7 +1190,7 @@ elif input_string == 44:
         image = Image.open('044.png')
         image.show()
         
-elif input_string == 45:
+elif input_string_two == 45:
         print("Vileplume")
         print("Type: Grass, Poison")
         print("Weaknesses: Fire, Psyhic, Flying, Ice")
@@ -1198,7 +1198,7 @@ elif input_string == 45:
         image = Image.open('045.png')
         image.show()
         
-elif input_string == 46:
+elif input_string_two == 46:
         print("Paras")
         print("Type: Bug, Grass")
         print("Weaknesses: Fire, Flying, Ice, Poison, Rock, Bug")
@@ -1206,7 +1206,7 @@ elif input_string == 46:
         image = Image.open('046.png')
         image.show()
         
-elif input_string == 47:
+elif input_string_two == 47:
         print("Parasect")
         print("Type: Bug, Grass")
         print("Weaknesses: Fire, Flying, Ice, Poison, Rock, Bug")
@@ -1214,7 +1214,7 @@ elif input_string == 47:
         image = Image.open('047.png')
         image.show()
         
-elif input_string == 48:
+elif input_string_two == 48:
         print("Venonat")
         print("Type: Bug, Poison")
         print("Weaknesses: Fire, Psyhic, Flying, Rock")
@@ -1222,7 +1222,7 @@ elif input_string == 48:
         image = Image.open('048.png')
         image.show()
         
-elif input_string == 49:
+elif input_string_two == 49:
         print("Venomoth")
         print("Type: Bug, Poison")
         print("Weaknesses: Fire, Psyhic, Flying, Rock")
@@ -1230,7 +1230,7 @@ elif input_string == 49:
         image = Image.open('049.png')
         image.show()
         
-elif input_string == 50:
+elif input_string_two == 50:
         print("Diglett")
         print("Type: Ground")
         print("Weaknesses: Water, Grass, Ice")
@@ -1238,7 +1238,7 @@ elif input_string == 50:
         image = Image.open('050.png')
         image.show()
         
-elif input_string == 51:
+elif input_string_two == 51:
         print("Dugtrio")
         print("Type: Ground")
         print("Weaknesses: Water, Grass, Ice")
@@ -1246,7 +1246,64 @@ elif input_string == 51:
         image = Image.open('051.png')
         image.show()
 
+print()
 
+#battle simulator
+
+1 = grass
+2 = grass
+3 = grass
+4 = fire
+5 = fire
+6 = fire
+7 = water
+8 = water
+9 = water
+10 = bug
+11 = bug
+12 = bug
+13 = bug
+14 = bug
+15 = bug
+16 = normal
+17 = normal
+18 = normal
+19 = normal
+20 = normal
+21 = normal
+22 = normal
+23 = poison
+24 = poison
+25 = electric
+26 = electric
+27 = ground
+28 = ground
+29 = poison
+30 = poison
+31 = posion
+32 = poison
+33 = poison
+34 = poison
+35 = fairy
+36 = fairy
+37 = fire
+38 = fire
+39 = normal
+40 = normal
+41 = poison
+42 = poison
+43 = grass
+44 = grass
+45 = grass
+46 = bug
+47 = bug
+48 = bug
+49 = bug
+50 = ground
+51 = ground
+
+
+grass water fire bug normal poison electric fairy
 
 #grass < fire, flying ice, poison, bug
 #fire < water, ground, rock
