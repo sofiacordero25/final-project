@@ -6,6 +6,7 @@
 input_string=int(input("Type a number from 1-51 to choose your character: "))
 while True:
     if input_string == 1:
+        input_string == "grass"
         print("Bulbasaur")
         print("Type: Grass, Poison")
         print("Weaknesses: Fire, Psyhic, Flying, Ice")
