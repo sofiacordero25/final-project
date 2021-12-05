@@ -2,7 +2,7 @@
 #sofia cordero, matt burkhimer, & nazli iclal karaman
 
 #choosing the user's character
- from PIL import Image
+from PIL import Image
 input_string=int(input("Type a number from 1-51 to choose your character: "))
 while True:
     if input_string == 1:
