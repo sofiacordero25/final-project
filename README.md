@@ -6,6 +6,7 @@
 input_string=int(input("Type a number from 1-51 to choose your character: "))
 while True:
     if input_string == 1:
+        input_string == 1
         input_string == "grass"
         print("Bulbasaur")
         print("Type: Grass, Poison")
@@ -24,6 +25,7 @@ while True:
            
   
     elif input_string == 2:
+        input_string == 1
         print("Ivysaur")
         print("Type: Grass, Poison")
         print("Weaknesses: Fire, Psyhic, Flying, Ice")
@@ -40,6 +42,7 @@ while True:
             break
   
     elif input_string == 3:
+        input_string == 1
         print("Venusaur")
         print("Type: Grass, Poison")
         print("Weaknesses: Fire, Psyhic, Flying, Ice")
@@ -56,6 +59,7 @@ while True:
             break
   
     elif input_string == 4:
+        input_string == 2
         print("Charmander")
         print("Type: Fire")
         print("Weaknesses: Water, Ground, Rock")
@@ -72,6 +76,7 @@ while True:
             break
   
     elif input_string == 5 :
+        input_string == 2
         print("Charmeleon")
         print("Type: Fire")
         print("Weaknesses: Water, Ground, Rock")
@@ -88,6 +93,7 @@ while True:
             break
   
     elif input_string == 6:
+        input_string == 2
         print("Charzard")
         print("Type: Fire, Flying")
         print("Weaknesses: Water, Ground, Rock")
@@ -104,6 +110,7 @@ while True:
             break
   
     elif input_string == 7:
+        input_string == 3
         print("Squirtle")
         print("Type: Water")
         print("Weaknesses: Grass, Electric")
@@ -120,6 +127,7 @@ while True:
             break
   
     elif input_string == 8:
+        input_string == 3
         print("Wartortle")
         print("Type: Water")
         print("Weaknesses: Grass, Electric")
@@ -136,6 +144,7 @@ while True:
             break
   
     elif input_string == 9:
+        input_string == 3
         print("Blastoise")
         print("Type: Water")
         print("Weaknesses: Grass, Electic")
@@ -152,6 +161,7 @@ while True:
             break
   
     elif input_string == 10: 
+        input_string == 4
         print("Caterpie")
         print("Type: Bug")
         print("Weaknesses: Fire, Flying, Rock")
@@ -168,6 +178,7 @@ while True:
             break
 
     elif input_string == 11:
+        input_string == 4
         print("Metapod")
         print("Type: Bug")
         print("Weaknesses: Fire, Flying, Rock")
@@ -184,6 +195,7 @@ while True:
             break
   
     elif input_string == 12:
+        input_string == 4
         print("Butterfree")
         print("Type: Bug, Flying")
         print("Weaknesses: Fire, Flying, Rock")
@@ -200,6 +212,7 @@ while True:
             break
   
     elif input_string == 13:
+        input_string == 4
         print("Weedle")
         print("Type: Bug")
         print("Weaknesses: Fire, Flying, Rock")
@@ -216,6 +229,7 @@ while True:
             break
   
     elif input_string == 14:
+        input_string == 4
         print("Kakuna")
         print("Type: Bug")
         print("Weaknesses: Fire, Flying, Rock")
@@ -232,6 +246,7 @@ while True:
             break
   
     elif input_string == 15:
+        input_string == 4
         print("Beedrill")
         print("Type: Bug, Flying")
         print("Weaknesses: Fire, Flying, Rock")
@@ -248,6 +263,7 @@ while True:
             break
   
     elif input_string == 16:
+        input_string == 5
         print("Pidgey")
         print("Type: Normal, Flying")
         print("Weaknesses: Electric, Ice, Rock")
@@ -264,6 +280,7 @@ while True:
             break
   
     elif input_string == 17:
+        input_string == 5
         print("Pidgeotto")
         print("Type: Normal, Flying")
         print("Weaknesses: Electric, Ice, Rock")
@@ -280,6 +297,7 @@ while True:
             break
   
     elif input_string == 18:
+        input_string == 5
         print("Pidgeot")
         print("Type: Normal, Flying")
         print("Weaknesses: Electric, Ice, Rock")
@@ -296,6 +314,7 @@ while True:
             break
   
     elif input_string == 19:
+        input_string == 5
         print("Fattata")
         print("Type: Normal")
         print("Weaknesses: Fighting")
@@ -312,6 +331,7 @@ while True:
             break
   
     elif input_string == 20:
+        input_string == 5
         print("Radicate")
         print("Type: Normal")
         print("Weaknesses: fighting")
@@ -328,6 +348,7 @@ while True:
             break
   
     elif input_string == 21:
+        input_string == 5
         print("Spearow")
         print("Type: Normal, Flying")
         print("Weaknesses: Electric, Ice, Rock")
@@ -344,6 +365,7 @@ while True:
             break
   
     elif input_string == 22:
+        input_string == 5
         print("Fearow")
         print("Type: Normal, Flying")
         print("Weaknesses: Electric, Ice, Rock")
@@ -360,6 +382,7 @@ while True:
             break
   
     elif input_string == 23:
+        input_string == 6
         print("Ekans")
         print("Type: Poison")
         print("Weaknesses: Psyhic, Ground")
@@ -376,6 +399,7 @@ while True:
             break
   
     elif input_string== 24:
+        input_string == 6
         print("Arbok")
         print("Type: Poison")
         print("Weaknesses: Psyhic, Ground")
@@ -392,6 +416,7 @@ while True:
             break
   
     elif input_string == 25:
+        input_string == 7
         print("Pikachu")
         print("Type: Electric")
         print("Weaknesses: Ground")
@@ -408,6 +433,7 @@ while True:
             break
    
     elif input_string == 26:
+        input_string == 7
         print("Raichu")
         print("Type: Electric")
         print("Weaknesses: Ground")
@@ -424,6 +450,7 @@ while True:
             break
   
     elif input_string == 27:
+        input_string == 8
         print("Sandshrew")
         print("Type: Ground")
         print("Weaknesses: Water, Grass, Ice")
@@ -440,6 +467,7 @@ while True:
             break
   
     elif input_string == 28:
+        input_string == 8
         print("Sandslash")
         print("Type: Ground")
         print("Weaknesses: Water, Grass, Ice")
@@ -456,6 +484,7 @@ while True:
             break
   
     elif input_string == 29:
+        input_string == 6
         print("Nidoran-female")
         print("Type: Poison")
         print("Weaknesses: Psyhic, Ground")
@@ -472,6 +501,7 @@ while True:
             break
   
     elif input_string == 30:
+        input_string == 6
         print("Nidorina")
         print("Type: Poison")
         print("Weaknesses: Psyhic, Ground")
@@ -488,6 +518,7 @@ while True:
             break
   
     elif input_string == 31:
+        input_string == 6
         print("Nidoqueen")
         print("Type: Poison, Ground")
         print("Weaknesses: Water, Psyhic, Ice, Ground")
@@ -504,6 +535,7 @@ while True:
             break
   
     elif input_string == 32:
+        input_string == 6
         print("Nidoran-male")
         print("Type: Poison")
         print("Weaknesses: Psyhic, Ground")
@@ -520,6 +552,7 @@ while True:
             break
   
     elif input_string == 33:
+        input_string == 6
         print("Nidorino")
         print("Type: Poision")
         print("Weaknesses: Psyhic, Ground")
@@ -536,6 +569,7 @@ while True:
             break
   
     elif input_string == 34:
+        input_string == 6
         print("Nidoking")
         print("Type: Poison, Ground")
         print("Weaknesses: Water, Psyhic, Ice, Ground")
@@ -552,6 +586,7 @@ while True:
             break
   
     elif input_string == 35:
+        input_string == 9
         print("Clefairy")
         print("Type: Fairy")
         print("Weaknesses: Steel, Poison")
@@ -568,6 +603,7 @@ while True:
             break
   
     elif input_string == 36:
+        input_string == 9
         print("Clefable")
         print("Type: Fairy")
         print("Weaknesses: Steel, Poison")
@@ -584,6 +620,7 @@ while True:
             break
   
     elif input_string == 37:
+        input_string == 2
         print("Vulpix")
         print("Type: Fire")
         print("Weaknesses:  Water, Ground, Rock")
@@ -600,6 +637,7 @@ while True:
             break
   
     elif input_string == 38:
+        input_string == 2
         print("Ninetales")
         print("Type: Fire")
         print("Weaknesses: Water, Ground, Rock")
@@ -616,6 +654,7 @@ while True:
             break
   
     elif input_string == 39:
+        input_string == 5
         print("Jigglypuff")
         print("Type: Normal, Fairy")
         print("Weaknesses: Steel, Poison")
@@ -632,6 +671,7 @@ while True:
             break
   
     elif input_string == 40:
+        input_string == 5
         print("Wigglytuff")
         print("Type: Normal, Fairy")
         print("Weaknesses: Steel, Poison")
@@ -648,6 +688,7 @@ while True:
             break
   
     elif input_string == 41:
+        input_string == 6
         print("Zubat")
         print("Type: Poison, Flying")
         print("Weaknesses: Psyhic, Electric, Ice, Rock")
@@ -664,6 +705,7 @@ while True:
             break
   
     elif input_string ==  42:
+        input_string == 6
         print("Golbat")
         print("Type: Poison, Flying")
         print("Weaknesses: Psyhic, Electric, Ice, Rock")
@@ -680,6 +722,7 @@ while True:
             break
   
     elif input_string == 43:
+        input_string == 1
         print("Oddish")
         print("Type: Grass, Poison")
         print("Weaknesses: Fire, Psyhic, Flying, Ice")
@@ -696,6 +739,7 @@ while True:
             break
   
     elif input_string == 44:
+        input_string == 1
         print("Gloom")
         print("Type: Grass, Poison")
         print("Weaknesses: Fire, Psyhic, Flying, Ice")
@@ -712,6 +756,7 @@ while True:
             break
   
     elif input_string == 45:
+        input_string == 1
         print("Vileplume")
         print("Type: Grass, Poison")
         print("Weaknesses: Fire, Psyhic, Flying, Ice")
@@ -728,6 +773,7 @@ while True:
             break
   
     elif input_string == 46:
+        input_string == 4
         print("Paras")
         print("Type: Bug, Grass")
         print("Weaknesses: Fire, Flying, Ice, Poison, Rock, Bug")
@@ -744,6 +790,7 @@ while True:
             break
   
     elif input_string == 47:
+        input_string == 4
         print("Parasect")
         print("Type: Bug, Grass")
         print("Weaknesses: Fire, Flying, Ice, Poison, Rock, Bug")
@@ -760,6 +807,7 @@ while True:
             break
   
     elif input_string == 48:
+        input_string == 4
         print("Venonat")
         print("Type: Bug, Poison")
         print("Weaknesses: Fire, Psyhic, Flying, Rock")
@@ -776,6 +824,7 @@ while True:
             break
   
     elif input_string == 49:
+        input_string == 4
         print("Venomoth")
         print("Type: Bug, Poison")
         print("Weaknesses: Fire, Psyhic, Flying, Rock")
@@ -792,6 +841,7 @@ while True:
             break
   
     elif input_string == 50:
+        input_string == 8
         print("Diglett")
         print("Type: Ground")
         print("Weaknesses: Water, Grass, Ice")
@@ -808,6 +858,7 @@ while True:
             break
   
     elif input_string == 51:
+        input_string == 8
         print("Dugtrio")
         print("Type: Ground")
         print("Weaknesses: Water, Grass, Ice")
@@ -838,7 +889,7 @@ print("The computer's character is...")
 
 import random
 
-input_string_two = random.randint(1,4)
+input_string_two = random.randint(1,52)
 if input_string_two == 1:
         print("Bulbasaur")
         print("Type: Grass, Poison")
